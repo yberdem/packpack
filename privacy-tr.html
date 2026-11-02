@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PackPack — Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: light; --ink:#3B3550; --muted:#6E6779; --bg:#FFF8EC; --card:#FFFFFF; --accent:#F7B733; --red:#E2453C; --line:#EADFCB; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  header { display:flex; gap:16px; align-items:center; margin-bottom:8px; }
+  header img { width:72px; height:72px; border-radius:16px; }
+  h1 { font-size:30px; margin:0; letter-spacing:-.4px; }
+  h2 { font-size:20px; margin:36px 0 8px; color:var(--red); }
+  .sub { color:var(--muted); margin:4px 0 28px; font-size:14px; }
+  a { color:#2F7FD8; }
+  table { border-collapse:collapse; width:100%; margin:12px 0; font-size:15px; background:var(--card); border-radius:10px; overflow:hidden; }
+  th,td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  .note { background:var(--card); border-left:4px solid var(--accent); padding:12px 16px; margin:20px 0; border-radius:0 8px 8px 0; }
+  ul { padding-left:22px; } li { margin:6px 0; }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><img src="icon.png" alt=""><div><h1>Gizlilik Politikası</h1></div></header>
+<p class="sub">PackPack · Son güncelleme: 2 Kasım 2026 · <a href="privacy.html">English</a></p>
+
+<p>PackPack tek oyunculu bir bulmaca oyunudur: rota çizer, paket teslim eder, kasabanı kurarsın. Bu sayfa <strong>uygulamanın hangi verileri, neden topladığını ve kimin işlediğini</strong> anlatır.</p>
+
+<div class="note"><strong>Kısaca:</strong> hesap ve giriş yok. Adını, e-postanı, telefonunu, rehberini, fotoğraflarını ya da konum iznini asla istemiyoruz. Oyun ilerlemen <strong>yalnızca cihazında</strong> saklanır. Oyunda reklam (Google AdMob) ve isteğe bağlı uygulama içi satın almalar (Apple / Google) vardır; anonim kullanım ve çökme raporları için Firebase kullanılır.</div>
+
+<h2>Veri sorumlusu</h2>
+<p>PackPack'in geliştiricisi <strong>Yüksel Berkay Erdem</strong> (Türkiye), burada anlatılan verilerin sorumlusudur. Her türlü gizlilik sorusu ve talep için: <a href="mailto:support@league-racer.com">support@league-racer.com</a>.</p>
+
+<h2>Cihazında kalan veriler</h2>
+<p>Level'ların, coin'lerin, canların, güçlendiricilerin, kasaba ilerlemen, serin ve ayarların (ses, müzik, titreşim, dil) cihazının yerel deposunda tutulur. Bir oyun sunucumuz yok; bunlar bize hiç gönderilmez. Uygulamayı silmek bunları da siler.</p>
+
+<h2>Reklamlar (Google AdMob)</h2>
+<p>PackPack <strong>Google AdMob</strong> üzerinden iki tür reklam gösterir:</p>
+<ul>
+<li><strong>Ödüllü reklamlar:</strong> bir ödül için (ör. coin, can ya da devam) izlemeyi senin seçtiğin reklamlar. İzlemezsen hiçbir şey kaybetmezsin.</li>
+<li><strong>Level'lar arasında tam ekran reklam:</strong> yalnızca bir level'ı kazandıktan sonra, level 20'den itibaren, en fazla üç level'da bir; level sırasında ve kaybettiğinde asla. "Reklamları Kaldır" ya da herhangi bir satın alma bunları kapatır.</li>
+</ul>
+<p>Reklamları çalıştırmak için Google cihazının reklam kimliğini, IP adresinden çıkarılan kaba konumu (ülke/şehir), reklam etkileşimlerini ve reklam bileşeninin tanılama verilerini işleyebilir. iPhone ve iPad'de reklam kimliği (IDFA) <strong>yalnızca Apple'ın "Uygulamaların izlemesine izin ver" penceresinde izin verirsen</strong> kullanılır; vermezsen reklamlar yine gösterilir ama bu kimlikle kişiselleştirilmez. Google'ın açıklaması: <a href="https://policies.google.com/technologies/partner-sites">Google, hizmetlerini kullanan site ve uygulamalardaki bilgileri nasıl kullanır</a>.</p>
+
+<h2>Reklam izni (AEA, Birleşik Krallık, İsviçre)</h2>
+<p>Avrupa Ekonomik Alanı, Birleşik Krallık ya da İsviçre'deysen herhangi bir reklam istenmeden önce Google'ın izin formunu (User Messaging Platform) görürsün. Seçimini istediğin zaman <strong>Profil → Gizlilik seçenekleri</strong>'nden değiştirebilirsin. İzin vermesen de oyunun tamamını oynayabilirsin.</p>
+
+<h2>Analiz ve çökme raporları (Firebase)</h2>
+<p>Oyunun nasıl oynandığını anlamak ve sorunları düzeltmek için <strong>Google Firebase Analytics</strong> ve <strong>Firebase Crashlytics</strong> kullanıyoruz:</p>
+<table>
+<tr><th>Veri</th><th>Neden</th></tr>
+<tr><td>Uygulama örneği kimliği (Firebase'in oluşturduğu, sana bağlı olmayan rastgele kimlik)</td><td>Kim olduğunu bilmeden oyuncu ve oturum saymak için.</td></tr>
+<tr><td>Oyun olayları: level başladı / kazanıldı / kaybedildi, güçlendirici kullanıldı, reklam izlendi, satın alma tamamlandı; level numarası, uygulama sürümü, cihaz modeli, işletim sistemi sürümü ve dil ile</td><td>Zorluğu ve oyun içi ekonomiyi dengelemek için.</td></tr>
+<tr><td>Çökme raporları: hata izi, uygulama sürümü, cihaz modeli, işletim sistemi sürümü</td><td>Çökmeleri bulup düzeltmek için.</td></tr>
+</table>
+<p>Bu verileri reklam için kullanmıyor ve satmıyoruz. Firebase analiz verilerini en fazla 14 ay, çökme raporlarını en fazla 90 gün saklar.</p>
+
+<h2>Uygulama içi satın almalar</h2>
+<p>Satın almalar (coin paketleri, başlangıç paketi ve Reklamları Kaldır) <strong>Apple</strong> ya da <strong>Google</strong> tarafından işlenir. Ödeme bilgilerini asla görmeyiz; uygulama yalnızca mağazadan onay alır. Reklamları Kaldır'ı <strong>Profil → Satın almaları geri yükle</strong> ile geri alabilirsin.</p>
+
+<h2>Toplamadığımız veriler</h2>
+<ul>
+<li>Ad, e-posta, telefon numarası, adres</li>
+<li>Kesin konum (konum izni asla istenmez)</li>
+<li>Rehber, fotoğraflar, kamera, mikrofon</li>
+<li>Ödeme kartı bilgileri</li>
+</ul>
+
+<h2>Hukuki dayanaklar</h2>
+<p>GDPR (md. 6) ve KVKK (md. 5) kapsamında: kişiselleştirilmiş reklam ve izleme için <strong>açık rıza</strong>; çökme raporları, anonim kullanım istatistikleri ve oyunu ücretsiz tutan kişiselleştirilmemiş reklamlar için <strong>meşru menfaat</strong>; satın almalar için <strong>sözleşmenin ifası</strong>.</p>
+
+<h2>Çocuklar</h2>
+<p>PackPack genel kitleye yönelik bir oyundur ve 13 yaş altı çocuklara yönelik değildir. Çocuklardan bilerek kişisel veri toplamayız.</p>
+
+<h2 id="silme">Verilerini silme</h2>
+<p>PackPack'te hesap yok; kapatılacak ya da çıkış yapılacak bir şey bulunmuyor. Verilerini silmek için:</p>
+<ul>
+<li><strong>Oyun ilerlemen</strong> (level, coin, kasaba, ayarlar) yalnızca cihazındadır. Uygulamayı silmek bunları hemen ve kalıcı olarak siler.</li>
+<li><strong>Analiz ve çökme verileri</strong> (Firebase) sana değil, rastgele bir uygulama kimliğine bağlıdır. Firebase analiz verilerini 14 ay, çökme raporlarını 90 gün sonra siler. Daha erken silinmesini istersen <a href="mailto:support@league-racer.com">support@league-racer.com</a> adresine "Verilerimi sil" konusuyla cihaz modelini, uygulama sürümünü (<strong>Profil</strong> sayfasının altında) ve aşağı yukarı ne zaman oynadığını yaz. Eşleştirebildiğimiz her şeyi 30 gün içinde siler, sonucu sana bildiririz.</li>
+<li><strong>Reklam verileri</strong> Google'dadır. Reklam kimliğini telefon ayarlarından sıfırlayabilir ya da silebilirsin (Android: Ayarlar → Gizlilik → Reklamlar; iPhone: "Uygulamaların izleme isteğine izin ver"i kapat).</li>
+<li>Satın alma kayıtlarını yasa gereği Apple ya da Google tutar; bizde kayıt yoktur.</li>
+</ul>
+
+<h2>Hakların</h2>
+<p>Seninle ilgili verilere erişim, düzeltme ya da silme talebini <a href="mailto:support@league-racer.com">support@league-racer.com</a> adresine yazabilirsin. Kim olduğunu bilmediğimiz için cihaz modelini, uygulama sürümünü (<strong>Profil</strong> sayfasının altında yazar) ve aşağı yukarı ne zaman oynadığını yaz; hesap olmadığından analiz verilerini sana ait diye ayırt edemeyebiliriz. Uygulamayı silerek tüm veri toplamayı durdurabilirsin. Kişisel Verileri Koruma Kurumu'na şikâyette bulunma hakkın saklıdır.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika değişirse bu sayfayı ve en üstteki tarihi güncelleriz.</p>
+
+<footer>PackPack · Yüksel Berkay Erdem · <a href="mailto:support@league-racer.com">support@league-racer.com</a></footer>
+</div>
+</body>
+</html>
